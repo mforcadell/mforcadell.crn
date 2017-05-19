@@ -1,0 +1,116 @@
+body {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom:0;
+			margin:0;
+			padding:0;
+			background-color: white;
+			font-family: helvetica;
+			width: 100%;
+			overflow: scroll;
+		}
+
+		#barra {
+			background-color: #ffa302;
+			height: 6%;
+			position: fixed;
+			top:0;
+			left:0;
+			right: 0;
+			text-align: center;
+			background-image: url("img/simbolo.png");		
+			background-repeat: no-repeat;
+			background-position: center;	
+			background-size: 35px 35px;
+					z-index:100000000;
+	
+
+
+
+		}
+			a:onclick{
+			color:white;
+
+		}
+
+		a{
+			color:white;
+		}
+
+		a{
+			text-decoration:none;
+		}
+
+		#contingut {
+			position:fixed;
+			top:6%;
+			bottom:6%;
+			left:0;
+			right: 0;
+
+		}
+
+		#peu {
+			background-color: #ffa302;
+			height: 6%;
+			position: fixed;
+			bottom:0;
+			left:0;
+			right: 0;
+		}
+
+		.caixa {
+	
+			width: 42%;
+			height: 30%;
+			margin: 10px;
+			float: left;
+			border-radius: 10%;
+			opacity: 0.5;
+			margin-left:5%;
+
+
+		}
+		
+		#barra .lupa {
+			height: 30px;
+			width: 30px;
+			margin-right: 10px;
+			float: right;
+			margin-top:1%;
+
+		}
+		
+
+		h1{
+			text-align: center;
+			margin-top: 25%;
+			color:white;
+		}
+		.caixa img{
+			width: 100%;
+			height:auto;
+			float:left;
+			border-radius: 10px;
+				}
+
+		.logo img{
+			position: fixed;
+			bottom:0;
+			left:0;
+			right: 0;
+		}
+
+		#hamburguesa{
+			height: 30px;
+			width: 30px;
+			margin-left: 10px;
+			float: left;
+			margin-top:1%;
+		}
+
+		a{
+			text-decoration:none;
+		}

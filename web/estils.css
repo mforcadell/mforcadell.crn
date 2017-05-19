@@ -1,0 +1,266 @@
+body {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom:0;
+			margin:0;
+			padding:0;
+			background-color: white;
+			font-family: helvetica;
+			width: 100%;
+			overflow: scroll;
+		}
+
+		#barra {
+			background-color: #ffa302;
+			height: 6%;
+			position: fixed;
+			top:0;
+			left:0;
+			right: 0;
+			text-align: center;
+			background-image: url("img/simbolo.png");		
+			background-repeat: no-repeat;
+			background-position: center;	
+			background-size: 35px 35px;
+			z-index:100000000;
+	
+		}
+
+		a:onclick{
+			color:white;
+
+		}
+
+		a{
+			color:white;
+		}
+
+		#contingut {
+			position:fixed;
+			top:6%;
+			bottom:6%;
+			left:0;
+			right: 0;
+
+		}
+
+		#peu {
+			background-color: #ffa302;
+			height: 6%;
+			position: fixed;
+			bottom:0;
+			left:0;
+			right: 0;
+		}
+
+		.caixa {
+	
+			width: 42%;
+			height: 30%;
+			margin: 10px;
+			float: left;
+			border-radius: 10%;
+			opacity: 0.5;
+
+		}
+
+	
+		#barra .lupa {
+			height: 30px;
+			width: 30px;
+			margin-right: 10px;
+			float: right;
+			margin-top:1%;
+
+		}
+		
+		.caixa img{
+			width: 100%;
+			height:auto;
+			float:left;
+			border-radius:0.5;
+		}
+
+		.logo img{
+			position: fixed;
+			bottom:0;
+			left:0;
+			right: 0;
+		}
+		h1{
+			text-align: left;
+			margin-top: 5%;
+			font-weight: bold;
+			margin-left: 5%;
+			font-size: large;
+			}
+		h2 {
+			text-align: left;
+			font-weight: bold;
+			font-size: medium;
+			margin-left: 5%;
+		}
+
+		p {
+			text-align: left;
+			margin-left: 5%;
+		}
+		.caixa img{
+			width: 50%;
+			height:auto;
+			float:left;
+			margin-top:-30%;
+		}
+
+		img {
+			height: 15%;
+			float:left;
+			margin-top:10%;
+			margin-left: 1%;
+			margin-right: 2%;
+		}
+
+		.event{
+			float:left;
+			width: 70%;
+			margin-top:7%;
+		}
+
+		.event h1 {
+			margin-top:0;
+		}
+
+		.fotodreta {
+			float: right;
+		}
+
+		.flechas img{
+			height: 4%;
+			width: 4%;
+			margin-top: 3%;
+			margin-left: 30%;
+			background-repeat: no-repeat;
+
+		}
+		.xat img{
+			height:88%;
+			width: 100%;
+			margin-left: 0%;
+			margin-top: 0%;
+			position:fixed;
+		}
+
+		#ajuda h1{
+			margin-top: 15%;
+			color:#a91717;
+			font-family: helvetica;
+
+		}
+		#ajuda p{
+			margin-right: 10%;
+		}
+
+		hr {
+			background-color:#ffa302;
+			margin-left: 5%;
+			height:0;
+			border-bottom: 1px solid #ffa302;
+		}
+
+			h3{
+			color:white;
+			margin-left: 40%;
+			margin-top: 10%;
+			padding-top: 8%;
+			font-size: x-large;
+
+
+			}
+
+			.hamburguesa{
+			height: 30px;
+			width: 30px;
+			margin-left: 10px;
+			float: left;
+			margin-top:1%;
+		}
+
+		#cuadrados{
+			width: auto%;
+			height: 5%;
+		}
+
+		#cuadrat{
+			width: 8%;
+			height: 100%;
+			background-color: #ffa302; 
+			float:left;
+			margin-left: 36%;
+			border-radius: 10px;
+		}
+		#cuadrat1{
+			width: 8%;
+			height: 100%;
+			background-color: #a91717; 
+			margin-right: 2%;
+			margin-left: 2%;
+			float:left;
+			border-radius: 10px;
+
+		}
+
+		#cuadrat2{
+			width: 8%;
+			height: 100%;
+			margin-right: 36%;
+			float:left;
+			border-radius: 10px;
+			background-color: black; 
+		}
+
+		.seguir {
+			clear: both;
+			float: left;
+			display: block;
+			width: 40%;
+			padding:0;
+			border-radius: 10px;
+		}
+
+		.seguir h1{
+			background-color: #ffa302;
+			color:white;
+			height:20%; 
+			text-align: center;
+			border-radius: 10px;
+
+		}
+
+		.estrellas{
+
+			width: 40%;
+			height: 6%;
+			float:right;
+			padding: 0;	
+			margin-right: 5%;	
+		}
+
+		.estrellas img {
+			height: 100%;
+			width: auto;
+			position: relative;
+			top: -15px;
+			margin-right: 5%;
+		}
+
+		a{
+			text-decoration:none;
+		}
+
+
+	
+		
+
+

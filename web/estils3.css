@@ -1,0 +1,110 @@
+body {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom:0;
+			margin:0;
+			padding:0;
+			background-color: white;
+			font-family: helvetica;
+			width: 100%;
+			overflow: scroll;
+		}
+
+		#barra {
+			background-color: #ffa302;
+			height: 6%;
+			position: fixed;
+			top:0;
+			left:0;
+			right: 0;
+			text-align: center;
+			background-image: url("img/simbolo.png");
+			background-repeat: no-repeat;
+			background-position: center;	
+			background-size: 35px 35px;
+					z-index:100000000;
+		
+
+		}
+
+			a:onclick{
+			color:white;
+
+		}
+
+		a{
+			color:white;
+		}
+
+		
+		.boto1{
+			background-color: #a91717;
+			height: 50%;
+			width: 70%;
+			margin-top: 10%;
+			margin-left: 10%;
+			border-radius: 10px;
+			opacity:0.5;
+			margin-left: 15%;
+
+
+		}
+		.boto2{
+			background-color: #ffa302;
+			height: 50%;
+			width: 70%;
+			margin-top: 10%;
+			margin-left: 10%;
+			border-radius: 10px;
+			opacity:0.5;
+			margin-left: 15%;
+
+
+		}
+
+
+		#peu {
+			background-color: #ffa302;
+			height: 6%;
+			position: fixed;
+			bottom:0;
+			left:0;
+			right: 0;
+		}
+		
+		#barra .lupa {
+			height: 30px;
+			width: 30px;
+			margin-left: 500px;
+			background-repeat: no-repeat;
+			margin-right: 10px;
+			float:right;
+			margin-top:1%;
+
+		}
+
+		h1{
+			color: white;
+			font-family: helvetica;
+			padding-top: 5%;
+			text-align: center;
+		}
+
+		.hamburguesa{
+			height: 30px;
+			width: 30px;
+			margin-left: 10px;
+			float: left;
+			margin-top:-1%;
+			background-repeat: no-repeat;
+
+		}
+
+
+		a{
+			text-decoration:none;
+		}
+
+		
